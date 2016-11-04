@@ -1,2 +1,31 @@
 /* Inserta tu CSS aqui */
-
+.uno, .dos, .tres, .cuatro, .cinco, .seis, .siete, .ocho{
+    background-color: #838181;
+    height: 110px;
+    width: 110px;
+    margin-top: 10px;
+    border: 2px solid #000000;
+    
+    
+}
+.dos{
+    height: 120px;
+    width: 380px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+.tres, .cuatro, .cinco{
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.siete{
+    position: relative;
+    left: 130px;
+    bottom: 125px
+}
+.ocho{
+    position: relative;
+    bottom: 125px;
+}
